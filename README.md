@@ -1,15 +1,18 @@
 # DomainIP
-My first rust project, this is a domain -> IP resolver
 
-Build from Source
+**DomainIP**  
+My first Rust project. This is a simple domain → IP resolver.
 
-Clone the repository:
-
-How to compile 
+### Clone the repository
+```bash
+git clone https://github.com/logintimedout/DomainIP.git
 
 cd DomainIP
-#Build the project:
+
+## Build from Source
+```bash
 cargo build --release
-#Run the compiled executable:
-./target/release/domainip example.com
-#or do cargo run
+
+## Or Just Run It
+```bash
+cargo run --release
